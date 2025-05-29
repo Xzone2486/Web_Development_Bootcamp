@@ -1,0 +1,29 @@
+#coral {
+    color: coral;
+}
+
+#rem {
+    font-size: 2rem;
+}
+
+#wd {
+    font-weight: 900;
+}
+
+body {
+    background-color: cornflowerblue;
+    font: 12px;
+    color: white;
+}
+
+
+#family {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#al {
+    text-align: right;
+}
