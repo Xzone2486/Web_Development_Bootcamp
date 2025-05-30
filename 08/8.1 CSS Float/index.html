@@ -1,77 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- TODO
-1. Make both paragraph elements wrap around the image.
-2. Use Float to move the cat div to the left and the dog div to the right.
-3. Use clear to make the footer go below both the cat and dog div. -->
-
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Float</title>
-  <style>
-    div {
-      display: inline-block;
-      width: 40%;
-    }
-
-    p {
-      font-size: 2em;
-    }
-
-    .cat {
-      background-color: aquamarine;
-      float: left;
-    }
-    
-    div {
-      border-radius: 5%;
-    }
-
-    .dog {
-      background-color: coral;
-      float: right;
-    }
-
-    footer {
-      text-align: center;
-      background-color: blueviolet;
-      clear: both;
-    }
-
-    .left {
-      float: left;
-    }
-
-    .right {
-      float: right;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="cat">
-    <h2>CatCSS</h2>
-
-    <img class="left" src="cat.jpeg" alt="cat in a box" />
-    <p class="first-paragraph">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
-      poochy. Sleep on keyboard
-      toy
-      mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog
-      smells
-      bad gnaw.</p>
-  </div>
-  <div class="dog">
-    <h2>DogCSS</h2>
-    <img class="right" src="dog.jpeg" alt="dogs in a box" />
-    <p class="second-paragraph">Heckin good boys and girls long woofer big ol wow very biscit long woofer heck what a
-      nice
-      floof, long doggo noodle
-      horse vvv very taste wow. Very taste wow many pats aqua doggo he made many woofs pupperino, puggo doing me a
-      frighten.</p>
-  </div>
-
-  <footer>Copyright. This is the footer</footer>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        img {
+          padding: 10px;
+        }
+        p {
+            padding: 10px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        header {
+            color: orange;
+            text-align: center;
+            font-size: 50px;
+            background-color: rgb(255, 217, 147);
+        }
+        .cat {
+            display: inline-block;
+            background-color: aquamarine;
+            display: inline-block;
+            margin: 1%;
+            width: 45%;
+        }
+        .dog {
+            display: inline-block;
+            background-color: coral;
+            display: inline-block;
+            margin: 1%;
+            width: 45%;
+        }
+        </style>
+  </head>
+  <body>
+    <header>Cats and Dogs</header>
+    <main>
+      <div class="cat">
+        <img src="./cat1.png" alt="" width="100px">
+        <p>
+          Nap all day cat dog hate mouse eat string barf pillow no baths hate
+          everything but kitty poochy. Sleep on keyboard toy mouse squeak roll
+          over. Mesmerizing birds. Poop on grasses licks paws destroy couch
+          intently sniff hand. The dog smells bad gnaw the corn cob.
+        </p>
+      </div>
+      <div class="dog">
+        <img src="./dog1.png" width="100px" alt="">
+        <p>
+          Heckin good boys and girls long woofer big ol wow very biscit long
+          woofer heck what a nice floof, long doggo noodle horse vvv very taste
+          wow. Very taste wow many pats aqua doggo he made many woofs pupperino,
+          puggo doing me a frighten.
+        </p>
+      </div>
+    </main>
+    <footer>Copyright. This is the footer</footer>
+  </body>
 </html>
